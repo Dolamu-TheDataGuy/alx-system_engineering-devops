@@ -2,7 +2,8 @@
 # Displays the content of the current directory in list format.
 # Only displays the part of the name after the first dash
 
-for f in *; 
+command=$(ls)
+for i in $command
 do
-    echo "$f" | cut -d '-' -f 2
+    echo "$i" | cut -d '-' -f2
 done
