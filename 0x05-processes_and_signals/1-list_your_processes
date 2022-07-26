@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Display the current running processes, in a user-oriented format.
 
-ps -faux
+ps -aux --forest
