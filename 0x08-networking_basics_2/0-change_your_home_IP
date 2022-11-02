@@ -5,4 +5,8 @@
 
 cp /etc/hosts ~/hosts.new
 sed -i 's/127.*$/127.0.0.2 localhost\n8.8.8 facebook.com/' ~/hosts.new
+<<<<<<< HEAD
 cp -f ~/hosts.new /etc/hosts
+=======
+cp -f ~/hosts.new /etc/hosts
+>>>>>>> 1574aae548e20bbf769409a606799929a8883236

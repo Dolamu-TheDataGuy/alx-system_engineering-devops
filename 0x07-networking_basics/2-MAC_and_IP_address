@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # A Bash script that answers question on MAC and IP address
 2
 1
+=======
+# Bash script that answers question on MAC and IP address
+2
+1
+>>>>>>> 1574aae548e20bbf769409a606799929a8883236
