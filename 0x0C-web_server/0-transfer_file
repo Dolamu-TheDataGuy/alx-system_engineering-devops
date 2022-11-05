@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # A script that copies file from a local host to a remote server
 if [ #$ -lt  3 ]
 then
