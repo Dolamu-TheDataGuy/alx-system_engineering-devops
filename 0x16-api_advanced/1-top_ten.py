@@ -20,4 +20,7 @@ v1.0.0 (by /u/firdaus_cartoon_jr)"
         return
     results = response.json().get("data")
     [print(c.get("data").get("title")) for c in results.get("children")]
+<<<<<<< HEAD
     
+=======
+>>>>>>> bd7908b0429d33615cbde317808822363d506cdf
